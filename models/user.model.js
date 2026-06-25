@@ -14,7 +14,8 @@ const userSchema = new mongoose.Schema({
     dob : Date,
     joiningDate : {type: Date, default: Date.now},
     lastLoginAt : Date,
-    createdBy : {type: mongoose.Types.ObjectId, ref: "users"}
+    createdBy : {type: mongoose.Types.ObjectId, ref: "users"},
+    isSystemAdmin : {type:Boolean, deault:false}
 
 }, { timestamps: true });
 
