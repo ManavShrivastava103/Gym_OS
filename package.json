@@ -1,0 +1,32 @@
+{
+  "name": "gm_server",
+  "version": "1.0.0",
+  "description": "This is a multipurpose gym management system for efficiently outshowing and managing members, plans, products, and billing on a single plaform.",
+  "homepage": "https://github.com/ManavShrivastava103/Gym_OS#readme",
+  "bugs": {
+    "url": "https://github.com/ManavShrivastava103/Gym_OS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManavShrivastava103/Gym_OS.git"
+  },
+  "license": "ISC",
+  "author": "Manav Shrivastava",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev" : "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3",
+    "nodemon": "^3.1.14"
+  }
+}
